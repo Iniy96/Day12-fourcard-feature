@@ -1,0 +1,25 @@
+@media  (max-width:1160px) {
+    .heading p{
+        width: 60%;
+    }
+}
+@media  (max-width:800px) {
+    .heading p{
+        width: 80%;
+    }
+}
+@media  (max-width:600px) {
+    .heading p{
+        width: 100%;
+    }
+    .container .box{
+        width: 100%;
+    }
+    
+    .container .box-down{
+        transform: translateY(0);
+    }
+    .attribution{
+        width:80%
+    }
+}

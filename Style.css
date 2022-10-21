@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+
+/* ****************** Variable declaration************************ */
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --font-family: "Poppins", sans-serif;
+}
+
+/* **********************Reset******************************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* *************************LAYOUT****************************** */
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    background-color: var(--Very-Light-Gray);
+    padding: 2em;
+}
+/* *************************Header******************* */
+header{
+    text-align: center;
+}
+h1{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    font-size:33px;
+}
+h1 span{
+    font-weight: 200;
+    display: block;
+}
+header p{
+    color: var(--Grayish-Blue);
+    padding-top: 0.8em;
+    width: 38%;
+    margin: auto;
+    font-size: 14px;
+}
+/*   ******************Boxes********************  */
+.container{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2em;
+}
+.box{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 3px 5px 10px var(--Grayish-Blue);
+    width: 29%;
+}
+.box h2{
+    font-size: 16px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+}
+.box p{
+    padding: 1em 0 2em ;
+    font-size: 13px;
+    color: var(--Grayish-Blue);
+}
+.box img{
+    float: right;
+}
+.box-cyan{
+    border-top: 4px solid var(--Blue);
+}
+.box-red{
+    border-top: 4px solid var(--Red);
+}
+.box-blue{
+    border-top: 4px solid var(--Blue);
+    
+}
+.box-orange{
+    border-top: 4px solid var(--Orange);
+}
+.box-down{
+    transform: translateY(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    padding-top: 3em;
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
